@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMOdbXALm2WM6Y/HQdPABdi",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Grace901/hello-world/blob/main/Assignment1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4n2S7WwbCS2D",
+        "outputId": "3c7c1553-8b02-4b69-95b7-34bbee6f2ed9"
+      },
+      "source": [
+        "names = 'Grace Mwangi'\n",
+        "first_name, last_name = names.split()\n",
+        "print (last_name, first_name, sep=',')\n",
+        "print(\"my goal for this class is to learn how to code\")\n",
+        "print(\"What are your goals for this class - long term goals?\")\n",
+        "goals = input('What would you like to be ....when all is said and done with the class?')"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Mwangi,Grace\n",
+            "my goal for this class is to learn how to code\n",
+            "What are your goals for this class - long term goals?\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
